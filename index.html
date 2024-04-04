@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/9b2b383777.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&effect=neon|outline|emboss|shadow-multiple|fire-animation" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Ejemplo bach</title>
+</head>
+<body>
+    <div class="container container-fluid text-center font-effect-fire-animation" id="degree-color"> <!--DIV PRINCIPAL-->
+        <!--NAV BAR-->
+        <div class="container">
+            <ul class="nav nav-pills nav-fill gap-2 p-1 small bg-light rounded-5 shadow-sm fixed-top" id="pillNav2" role="tablist" style="--bs-nav-link-color: var(--bs-dark); --bs-nav-pills-link-active-color: var(--bs-dark-emphasis); --bs-nav-pills-link-active-bg: var(--bs-dark);">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Carrusel</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+                  </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
+                </li>
+              </ul>
+        </div>
+        <!-- Carrusel -->
+                <!-- Carrusel -->
+                <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+                    <!-- Indicadores-Puntos -->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="1" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="2" class="active"></button>
+                        <button type="button" data-bs-target="#demo" data-bs-slide-to="3" class="active"></button>
+                    </div>
+                    
+                    <!-- La presentación de diapositivas/carrusel -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./assets/img/hamster-5490235.jpg" alt="Hamster" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <h3>Un hamster</h3>
+                                <p>Un hamster muy bonito</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="./assets/img/cat-7995160.jpg" alt="Cat" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <h3>Un gato</h3>
+                                <p>Un gato muy bonito</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="./assets/img/huskies-273409.jpg" alt="Huskies" class="d-block" style="width:100%">
+                            <div class="carousel-caption" >
+                                <h3 style="color: black;">Un huskie</h3>
+                                <p style="color: black;">Un huskie muy bonito</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <img src="./assets/img/owl-50267_1280.jpg" alt="Owl" class="d-block" style="width:100%">
+                            <div class="carousel-caption">
+                                <h3>Un buho</h3>
+                                <p>Un buho muy bonito</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Controles/iconos izquierdo y derecho -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+        <div class="container" id="primeraSeccion">
+            <div class="container" id="uno">
+                <div class="row">
+                    <div class="col-md">
+                        <h1 class="h1 alert alert-success">Success!</h1>
+                    </div>
+                    <div class="col-md">
+                        <h1 class="h1 alert alert-info">Info!</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="dos">
+                <div class="row">
+                    <div class="col-md">
+                        <h1 class="h1 alert alert-warning">Warning!</h1>
+                    </div>
+                    <div class="col-md">
+                        <h1 class="h1 alert alert-danger">Danger!</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="tres">
+                <div class="row">
+                    <div class="col-md">
+                        <h1 class="h1 alert alert-primary">Primary!</h1>
+                    </div>
+                    <div class="col-md">
+                        <h1 class="h1 alert alert-secondary">Secondary!</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container" id="cuatro">
+                <div class="row">
+                    <div class="col-md">
+                        <h1 class="h1 alert alert-dark">Dark!</h1>
+                    </div>
+                    <div class="col-md">
+                        <h1 class="h1 alert alert-light">Light!</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" id="cinco">
+                <div class="row rows-col-2">
+                    <div class="col">
+                        <h1 class="h1 alert alert-primary">H1</h1>
+                    </div>
+                    <div class="col">
+                        <h1 class="h1 alert alert-primary">H1</h1>
+                    </div>
+                    <div class="col">
+                        <h1 class="h1 alert alert-primary">H1</h1>
+                    </div>
+                    <div class="col">
+                        <h1 class="h1 alert alert-primary">H1</h1>
+                    </div>
+                    <div class="col">
+                        <h1 class="h1 alert alert-primary">H1</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3" id="tabla">
+            <h1 class="h1 text-center">Tabla</h1>
+            <table class="table table-hover table-striped table-borderless">
+                <thead>
+                    <th>Nombre</th>
+                    <th>Numero</th>
+                    <th>Descripcion</th>
+                    <th>Hola</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Santiago</td>
+                        <td>53684656</td>
+                        <td>Guapo</td>
+                        <td>Hola</td>
+                    </tr>
+                    <tr>
+                        <td>Junajpu</td>
+                        <td>51667427</td>
+                        <td>Atento</td>
+                        <td>Hola</td>
+                    </tr>
+                    <tr>
+                        <td>Ayda</td>
+                        <td>12345678</td>
+                        <td>Guapa</td>
+                        <td>Hola</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="container mt-3" id="btnUno">
+            <button type="button" class="btn">Basic</button>
+            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-secondary">Secondary</button>
+            <button type="button" class="btn btn-success">Success</button>
+            <button type="button" class="btn btn-info">Info</button>
+            <button type="button" class="btn btn-warning">Warning</button>
+            <button type="button" class="btn btn-danger">Danger</button>
+            <button type="button" class="btn btn-dark">Dark</button>
+            <button type="button" class="btn btn-light">Light</button>
+            <button type="button" class="btn btn-link">Link</button>
+        </div>
+        <div class="container mt-3" id="btnDos">
+            <button type="button" class="btn btn-outline-primary">Primary</button>
+            <button type="button" class="btn btn-outline-secondary">Secondary</button>
+            <button type="button" class="btn btn-outline-success">Success</button>
+            <button type="button" class="btn btn-outline-info">Info</button>
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <button type="button" class="btn btn-outline-danger">Danger</button>
+            <button type="button" class="btn btn-outline-dark">Dark</button>
+            <button type="button" class="btn btn-outline-light text-dark">Light</button>
+        </div>
+        <div class="container mt-3" id="imgUno">
+            <div class="row">
+                <div class="col" id="img-container">
+                    <img id="c1" src="./assets/img/wolf-725380_1280.jpg" class="img-fluid">
+                </div>
+                <div class="col">
+                    <img src="./assets/img/wolves-8372284_1280.jpg" class="img-fluid rounded">
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3" id="imgDos">
+            <div class="row">
+                <div class="col">
+                    <img src="./assets/img/owl-50267_1280.jpg" class="img-fluid rounded-circle">
+                </div>
+                <div class="col">
+                    <img src="./assets/img/cat-2083492_1280.jpg" class="img-fluid img-thumbnail">
+                </div>
+            </div>
+        </div>
+        <div class="container mt-3">
+            <div class="row row-col-2">
+                <div class="col">
+                    <img src="./assets/img/wolf-725380_1280.jpg" class="img-fluid rounded">
+                </div>
+                <div class="col">    
+                    <img src="./assets/img/fox-1284512_1280.jpg" class="img-fluid rounded">
+                </div>
+                <div class="col">
+                    <img src="./assets/img/cat-2083492_1280.jpg" class="img-fluid rounded">
+                </div>
+            </div>
+        </div> <br>
+        <div class="container">
+            <div class="row">
+        <div class="card col-lg border-light" style="width: 18rem;">
+            <img class="card-img-top img-thumbnail" src="./assets/img/cat-7995160.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-light">Go somewhere</a>
+                </div>
+            </div>
+        <div class="card col-lg border-light" style="width: 18rem;">
+            <img class="card-img-top img-thumbnail" src="./assets/img/fox-1284512_1280.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
+        <div class="card col-lg border-light" style="width: 18rem;">
+        <img class="card-img-top img-thumbnail" src="./assets/img/huskies-273409.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-light">Go somewhere</a>
+            </div>
+        </div>
+        </div>
+        </div>
+    </div> <!--CIERRE DIV-->
+    <br>
+    <div class="container container-fluid font-effect-fire-animation" id="imgTres">
+        <div class="row">
+            <div class="card border-light" style="width: 30%; height: 75%;">
+                <img class="card-img-top img-thumbnail" src="./assets/img/cat-7995160.jpg" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-light">Go somewhere</a>
+                </div>
+            </div>
+        <div class="col">
+            <img src="./assets/img/hamster-5490235.jpg" class="img-fluid" alt="hamster">
+        </div>
+        </div>  
+    </div>
+<script src="./assets/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
